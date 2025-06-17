@@ -28,7 +28,7 @@ The project displays the  **"Hi Saeideh!"** message on a 16x2 LCD using the Ardu
 
 ## 🖼️ Screenshot
 
-![image](https://github.com/user-attachments/assets/f601cb4a-ad64-43bd-8419-864eb19ea4f2)
+![image](https://github.com/user-attachments/assets/e493ac05-02c2-4992-9619-93883acb4c51)
 
 
 ## 🧠 Author Notes
