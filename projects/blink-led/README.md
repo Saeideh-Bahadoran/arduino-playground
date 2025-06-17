@@ -8,7 +8,7 @@ The project toggles two LEDs (connected to pins 12 and 13) so that one turns on 
 
 ### 🛠️ Components Used:
 - Arduino Uno (Wokwi simulator)
-- 2x LEDs (connected to pins 12 and 13)
+- 1 LED (connected to pin 12) and 1 onboard-LED connected to pin 13 
 
 ### 💡 What I Learned:
 - How to control multiple digital outputs using `pinMode()` and `digitalWrite()`
