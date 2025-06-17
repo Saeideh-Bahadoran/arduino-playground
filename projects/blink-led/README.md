@@ -1,62 +1,39 @@
-# 🔦 Blink LED – Day 2 Project
+# 🔁 Alternating Blink – Arduino + Two LEDs (Wokwi Project)
 
-This is a simple Arduino project for beginners that demonstrates how to blink the built-in LED on an Arduino Uno board.
+This is my second embedded project using [Wokwi](https://wokwi.com/), where I explored how to control two LEDs using an Arduino Uno. The LEDs blink alternately, creating a simple but useful timing exercise.
 
-## 📁 Project Structure
+## 🔧 Project Description
 
-blink-led/
-blink-led.ino # Arduino sketch to blink the LED
+The project toggles two LEDs (connected to pins 12 and 13) so that one turns on while the other turns off, with a 1-second delay in between. This demonstrates basic digital output control and timing in Arduino.
 
-diagram.json # Wokwi circuit diagram
+### 🛠️ Components Used:
+- Arduino Uno (Wokwi simulator)
+- 2x LEDs (connected to pins 12 and 13)
 
-README.md # Project documentation
+### 💡 What I Learned:
+- How to control multiple digital outputs using `pinMode()` and `digitalWrite()`
+- How to blink two LEDs alternately
+- Using the `delay()` function for timing
+- Basics of logic and timing in microcontroller programming
 
+## ▶️ How to Run
+1. Open the project in Wokwi: [Open in Wokwi](https://wokwi.com/projects/INSERT-YOUR-PROJECT-ID)
+2. Press the "Start Simulation" button
+3. You will see the two LEDs blinking **alternately every second**
 
-## 💡 Overview
+## 📁 Files
+- `blink-led.ino`: Arduino sketch file
+- `diagram.json`: Circuit wiring for Wokwi
+- `README.md`: This project documentation
 
-This project turns the built-in LED on and off every 1 second. It helps beginners get familiar with:
+## 🖼️ Screenshot
 
-- Basic Arduino sketch structure
-- Using `digitalWrite()` and `delay()`
-- Simulating circuits in [Wokwi](https://wokwi.com)
+![image](https://github.com/user-attachments/assets/429b4f7f-b5c2-4a4d-84df-1695ecbc56d7)
 
-## 🚀 Getting Started
+## 🧠 Author Notes
+This is **Day 2** of my personal journey into Embedded Systems and IoT.  
+I’m building small daily projects to learn the foundations of embedded programming, hardware simulation, and professional documentation.
 
-1. Open the `.ino` file in the [Arduino IDE](https://www.arduino.cc/en/software) or [Wokwi online simulator](https://wokwi.com).
-2. Upload it to your Arduino board or run it in the simulator.
+---
 
-## 🔧 Code Snippet
-
-```cpp
-void setup() {
-  pinMode(LED_BUILTIN, OUTPUT);
-}
-
-void loop() {
-  digitalWrite(LED_BUILTIN, HIGH);
-  delay(1000); // LED ON for 1 second
-  digitalWrite(LED_BUILTIN, LOW);
-  delay(1000); // LED OFF for 1 second
-}
-📌 Dependencies
-No external libraries required.
-
-Uses the built-in Arduino LED_BUILTIN pin.
-
-🧪 Simulated With
-Wokwi Arduino Simulator
-
-Microcontroller: Arduino Uno
-
-📸 Screenshot
-You can add a screenshot of your Wokwi simulation here.
-
-🧠 What I Learned
-How to configure a digital output pin
-
-Using delay() to control timing
-
-The basic cycle of a microcontroller program (setup + loop)
-
-👩‍💻 Author
-Saeideh Bahadoran
+📅 Project created on: `2025-06-17`
