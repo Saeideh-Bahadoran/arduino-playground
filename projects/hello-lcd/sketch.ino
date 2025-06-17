@@ -10,7 +10,7 @@ void setup() {
 
 void loop() {
   lcd.setCursor(0,2);
-  lcd.print("your time is running out");
+  lcd.print("Time is running out");
   lcd.setCursor(7,3);
   lcd.print(millis()/1000);
 }
