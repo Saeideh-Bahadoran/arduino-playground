@@ -5,9 +5,12 @@ This is a simple Arduino project for beginners that demonstrates how to blink th
 ## 📁 Project Structure
 
 blink-led/
-├── blink-led.ino # Arduino sketch to blink the LED
-├── diagram.json # Wokwi circuit diagram
-└── README.md # Project documentation
+blink-led.ino # Arduino sketch to blink the LED
+
+diagram.json # Wokwi circuit diagram
+
+README.md # Project documentation
+
 
 scss
 Copy
