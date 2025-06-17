@@ -12,10 +12,6 @@ diagram.json # Wokwi circuit diagram
 README.md # Project documentation
 
 
-scss
-Copy
-Edit
-
 ## 💡 Overview
 
 This project turns the built-in LED on and off every 1 second. It helps beginners get familiar with:
